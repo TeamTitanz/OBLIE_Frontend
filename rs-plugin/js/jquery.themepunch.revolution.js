@@ -1849,7 +1849,8 @@
 			opt.bannertimeronpause = false;
 
 		    opt.cd=0;
-		    container.trigger('nulltimer');	console.log("hey");
+		    container.trigger('nulltimer');
+		    // console.log("hey");
 		    TweenLite.to(container.find('.tp-loader'),0.3,{autoAlpha:0});
 		    setSize(defimg,opt);
 			setBulPos(container,opt);

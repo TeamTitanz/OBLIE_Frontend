@@ -436,6 +436,13 @@
 		font-size: 26px !important;
 	}
 
+	.center {
+		margin: auto;
+		width: 50%;
+		border: 3px solid green;
+		padding: 10px;
+	}
+
 	span.slogo {
 		font-size: 15px;
 		color: #FFF;
